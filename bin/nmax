@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "nmax"
+STDERR.puts Nmax.read($stdin, (ARGV && ARGV[0].to_i) || 1000).to_s
